@@ -188,6 +188,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
     fun clear(){
         if(textView.text.contains("=")){
             textView.setText("")
+            textView.setText("")
         }
     }
 
